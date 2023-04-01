@@ -5,18 +5,6 @@ enum Path: String, Hashable {
     case notification
 }
 
-struct AccountView: View {
-    var body: some View {
-        Text("Account")
-    }
-}
-
-struct NotificationView: View {
-    var body: some View {
-        Text("Notification")
-    }
-}
-
 struct TopView: View {
     @State private var path = [Path]()
     
